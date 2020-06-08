@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Summary of the FemCode Web Track HTML classes so far</title>
+		<style type="text/css">
+			table, th, td{
+				border-color: pink; border-fill: pink; border: 1px solid;
+			}
+		</style>
+	</head>
+	<body>
+		<h3> We learned about headings. </h3>
+
+		<p>
+			Then we learned about elements and tags:<br>
+			We learned to format text using the <b>bold</b>, <i>italics</i>, <strong>strong</strong>, <sub>subscript</sub>, <sup>superscript</sup>, <u>underline</u>, <del>delete</del>, <ins>inserted</ins>, <mark>mark</mark>, <em>emphasize</em> and other tags.
+		</p><br>
+
+		<p>Then we learned to<br> break<br> lines<br> like<br> that.</p><br>
+		<p>We moved on to lists:</p><br>
+		<ul style="list-style-type: disc;">
+			<li>Unordered lists;</li>
+		</ul>
+		<ol start="2">
+			<li>Ordered lists;</li>
+			<li>And nested lists:
+				<ul style="list-style-type: square;">
+					<li>Basically,</li>
+					<li>Lists</li>
+					<li>Inside</li>
+					<li>Lists.</li>
+				</ul>
+			</li>
+		</ol>
+		<br><br><br><br><br>
+
+		<p>In the next class, we learned how to insert images into webpages: (I really need to change this photo!)</p><br>
+		<img src="images/BluePillow.jpg" height="50" width="100"><br><br>
+
+		<a href="Everything I've learned so far.html" type="_blank">And how to create text links...</a><br>
+		<a href="Everything I've learned so far.html" type="_new">And how to create image links: <img src="images/arrow.png" height="35" width="50"> </a>
+
+		<p>
+			Then we learned to insert media into the webpage, like videos,<br>
+			<!-- Always specify video width and height so your page doesn't flicker. -->
+			<video src="videos/PuffStitch.mp4" type="video/mp4" controls height="360" width="640"></video><br> and audio,<br>
+			<audio src="audios/dedinst.mp3" type="audio/mp3" controls></audio>
+		</p>
+		<br><br><br><br><br>
+
+		<h3>Now, for forms. Shall we?</h3>
+		<form>
+			<fieldset>
+				<legend>Personal Information:</legend>
+				<fieldset title="Names:">
+					<legend>Names:</legend><br>
+					First Name:<br>
+					<input type="text" name="FirstName" placeholder="First Name" required><br>
+					Middle Name:<br>
+					<input type="text" name="MidName" placeholder="Middle Name" ><br>
+					Last Name:<br>
+					<input type="text" name="LastName" placeholder="Last Name" required><br>
+				</fieldset>
+
+				<br>
+
+				<fieldset title="Age:">
+					<legend>Age:</legend>
+					What is your date of birth?<br>
+					<input type="date" name="Age" required><br>
+				</fieldset>
+
+				<br>
+
+				<fieldset title="Region:">
+					<legend>Region:</legend>
+					<input type="radio" name="NE"> North-East<br>
+					<input type="radio" name="N"> North-Central<br>
+					<input type="radio" name="NW"> North-West<br>
+					<input type="radio" name="SE"> South-East<br>
+					<input type="radio" name="S"> South-South<br>
+					<input type="radio" name="SW"> South-West<br>
+				</fieldset>
+			</fieldset>
+
+			<br><br><br>
+
+			<fieldset>
+				<fieldset title="Interests:">
+					<legend>Interests:</legend>
+					<input type="radio" name="fe"> Front-End Web Development<br>
+					<input type="radio" name="be"> Back-End Web Development<br>
+					<input type="radio" name="other"> Other<br>
+					Why have you selected this interest? (If other, please specify and explain.)<br>
+					<textarea name="Reason..." rows="5" cols="50"></textarea>
+				</fieldset>
+
+				<br>
+
+				<fieldset title="Questions:">
+					<p>If given the opportunity to learn more on your interest, would you?</p><br>
+					<input type="radio" name="fafy"> For a fee, yes<br>
+					<input type="radio" name="fafn"> For a fee, no<br>
+					<input type="radio" name="ffy"> For free, yes<br>
+					<input type="radio" name="ffn"> For free, no<br>
+
+					Why?<br>
+					<textarea name="Reason..." rows="5" cols="50"></textarea>
+				</fieldset>
+			</fieldset>
+			<input type="submit" name="End" value="Submit!"><br>
+		</form>
+		<br><br><br><br><br>
+
+		<p>We also learned to draw and modify tables in our webpages.</p>
+
+		<table style="width: 30%">
+			<tr>
+				<th>Names</th>
+				<th>Ages</th>
+				<th>Favorite Songs</th>
+			</tr>
+
+			<tr>
+				<td>James</td>
+				<td>22</td>
+				<td><i>Africa</i></td>
+			</tr>
+
+			<tr>
+				<td>Angel</td>
+				<td>18</td>
+				<td><i>And the glory</i></td>
+			</tr>
+
+			<tr>
+				<td>Farook</td>
+				<td>21</td>
+				<td><i>Swan Lake</i></td>
+			</tr>
+		</table>
+		<br><br><br><br><br>
+		<marquee><b><big>This is everything about HTML.</big></b></marquee>
+
+	</body>
+</html>
